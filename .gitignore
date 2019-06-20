@@ -1,4 +1,4 @@
-docs/build/
+build/
 .*.sw*
 .buildignore
 .vscode
