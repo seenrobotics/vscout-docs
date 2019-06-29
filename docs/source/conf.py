@@ -30,7 +30,7 @@ release = '0.0.1'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ["sphinx.ext.githubpages",
+extensions = ["sphinx.ext.autodoc",
               ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -53,3 +53,6 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# The document name of the “master” document, that is, the document that contains the root toctree directive. Default is 'index'.
+master_doc = 'index'
