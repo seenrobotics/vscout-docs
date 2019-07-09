@@ -13,6 +13,7 @@ Welcome to vscout
 
    self
    ./contributing/index
+   ./design/index
 
 
 If you would like to contribute to vscout, check out our
