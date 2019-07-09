@@ -15,7 +15,8 @@ Welcome to vscout
    ./contributing/index
 
 
-If you would like to contribute to vscout, check out our :doc:`Contributing Guide <./contributing/index>`
+If you would like to contribute to vscout, check out our
+:doc:`Contributing Guide <./contributing/index>`
 
 User's Guide
 ------------------
