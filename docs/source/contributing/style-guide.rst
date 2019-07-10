@@ -2,10 +2,10 @@ Style Guide
 ===========
 
 seenrobotics' style guide is based on `Google’s style guide
-<http://google.github.io/styleguide/pyguide.html>`_ with a few
+<https://dart.dev/guides/language/effective-dart/style>`_ with a few
 additions.
 
-Modifications to Google’s Python style guide
+Modifications to Google’s Dart style guide
 --------------------------------------------
 
 No Magic Numbers
@@ -17,9 +17,9 @@ Definition
 Magic numbers are numbers whose purpose may not be understood by other
 developers. For example:
 
-.. code:: python
+.. code:: dart
 
-   foo = foo + 2.79
+   foo += 2.79;
 
 The purpose of 2.79 is not explicit.
 
@@ -43,7 +43,7 @@ Decision
 Replace any magic numbers with variables that explain its purpose. For
 example:
 
-.. code:: python
+.. code:: dart
 
-   bar = 2.79
-   foo = foo + bar
+   final bar = 2.79;
+   foo += bar;
