@@ -7,3 +7,4 @@ Design
    :caption: Table of Contents
 
    ./initial-design
+   ./commands
